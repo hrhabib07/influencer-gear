@@ -14,7 +14,7 @@ body{
 
 
 main{
-    max-width: 1110px;
+    max-width: 1440px;
     margin: 5rem auto;
 }
 
@@ -28,6 +28,7 @@ main{
  font-size: 16px;
 border: none;
 margin-right: 8px;
+cursor: pointer;
 }
 .space-left{
     margin-left: 8px;
@@ -37,7 +38,8 @@ margin-right: 8px;
 .top-banner-container{
     display: flex;
     justify-content: space-around;
-    align-items: center;   
+    align-items: center; 
+    margin-bottom: 3rem;  
 }
 .top-banner-title{
     color: var(--secondary-text-color);
@@ -55,4 +57,67 @@ margin-right: 8px;
     font-size: var(--paragraph-font-size);
     font-weight: 600;
     margin: 16px 0;
+}
+
+
+/* style for logo container starts here  */
+.logo-container{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    margin: 3rem 0;
+    
+}
+
+/* popular collection section  */
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    
+}
+.collection-title{
+    color: var(--secondary-text-color);
+    font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: 70px; 
+margin: 0 auto;
+text-align: center;
+}
+.card{
+    width: 300px;
+    height: 430px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+    border-radius: 20px;
+}
+.card-img{
+    width: 300px;
+    width: 260px;
+}
+.card-description p{
+        margin: 0;
+        text-align:left;
+}
+
+/* responsive media queries  */
+/* mobile devices */
+@media screen and (max-width: 576px) {
+    .top-banner-container{
+        flex-direction: column-reverse;
+    }
+    .logo-container{
+        grid-template-columns: repeat(4, 1fr);
+     
+    }
+    .card-container{
+        
+        grid-template-columns: repeat(1, 1fr);
+
+        
+    }
+}
+/* tablet or medium devices */
+@media screen and (min-width: 576px) and (max-width:960px) {
+    
 }
