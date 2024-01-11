@@ -100,6 +100,20 @@ text-align: center;
         text-align:left;
 }
 
+/* featuers product section style  */
+.featured-product{
+    margin: 40px 0;
+}
+.featured-product-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.featured-product-description{
+    margin-left: 5rem;
+   
+  
+}
 /* responsive media queries  */
 /* mobile devices */
 @media screen and (max-width: 576px) {
