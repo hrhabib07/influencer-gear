@@ -9,6 +9,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     font-family: 'Work Sans', sans-serif;
+    margin: 0;
 }
 
 
@@ -114,6 +115,24 @@ text-align: center;
    
   
 }
+
+/* footer styles start here  */
+
+footer{
+    background-color: #0A0826;
+    text-align: center;
+    color: white;
+    height: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.sticker-container{
+    margin-right: 16px;
+}
+
+
 /* responsive media queries  */
 /* mobile devices */
 @media screen and (max-width: 576px) {
