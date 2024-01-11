@@ -1,0 +1,58 @@
+
+:root {
+  --secondary-text-color: #3A3A3A;
+  --title-font-size: 52px;
+  --paragraph-font-size: 16px;
+
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+
+main{
+    max-width: 1110px;
+    margin: 5rem auto;
+}
+
+/* common styles */
+.primary-button{
+ padding: 10px 24px;  
+ background-color: #E02C6D; 
+ color: white;
+ font-weight: 700;
+ border-radius: 41px;
+ font-size: 16px;
+border: none;
+margin-right: 8px;
+}
+.space-left{
+    margin-left: 8px;
+}
+
+/* top banner styles starts here */
+.top-banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;   
+}
+.top-banner-title{
+    color: var(--secondary-text-color);
+    font-size: var(--title-font-size);
+    font-weight: 700;
+    margin: 0;
+}
+.top-banner-image{
+    background-image: url("../images/Circle\ design.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.primary-description{
+    color: var(--secondary-text-color);
+    font-size: var(--paragraph-font-size);
+    font-weight: 600;
+    margin: 16px 0;
+}
